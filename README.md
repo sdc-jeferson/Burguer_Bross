@@ -1,6 +1,6 @@
 <h1 text-align="center">BurguerBross</h1>
 
-🌎 Result Preview: [Veja o Projeto](https://cardapio-finalizado.vercel.app/)
+<!--🌎 Result Preview: [Veja o Projeto](https://cardapio-finalizado.vercel.app/) -->
 
 </div>
 
