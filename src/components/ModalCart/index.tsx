@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import { CartItem } from "../CartItem";
 import { useState, FormEvent } from "react";
 import { toast } from "react-toastify";
-import { useCart } from "../hook/useCart";
+import { useCart } from "../../hook/useCart";
 
 export const ModalCart = () => {
   const { modalIsOpen, handleCloseModal, burgerCart, setBurgerCart } =

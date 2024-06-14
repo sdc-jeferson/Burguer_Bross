@@ -1,6 +1,6 @@
 import "./footer.scss";
 import { FaShoppingCart } from "react-icons/fa";
-import { useCart } from "../hook/useCart";
+import { useCart } from "../../hook/useCart";
 
 export const Footer = () => {
   const { countItemsOnCart, handleOpenModal } = useCart();
