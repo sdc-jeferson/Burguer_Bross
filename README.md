@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+<h1 text-align="center">BurguerBross</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌎 Result Preview: [Veja o Projeto](https://cardapio-finalizado.vercel.app/)
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<P text-align="center">
+  <img src=".github/Home.png" alt="imagem de home page do cardapio"/> 
+  <br/>
+  <br/>
+  <br/>
+  <img src=".github/Mockup1.png" alt="imagem de home page do cardapio mobile" style="width:200px;"/>
+  <img src=".github/Mockup.png" alt="imagem do modal mobile" style="width:200px;"/>
+</P>
 
-## Expanding the ESLint configuration
+## 💻 Projeto - Cardapio com ReactJS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p>
+Baseado em no projeto dispinibilizado pelo youtuber Sujeito Programador, a primeira versão do projeto foi feita com HTML, TAILWIND e JS. Portanto, achei o projeto interessante e conforme nos meu avançoos promovi o mesmo projeto com uma nova criação utilizando SASS/SCSS , ReactJs e TypeScript.
 
-- Configure the top-level `parserOptions` property like this:
+## 🧪 Tecnologias |
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![HTML5](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Sass-CC6699.svg?style=for-the-badge&logo=Sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+- Mobile First
+- Unidade de medida flexível
+- Variáveis
+- Grid
+- Animações e transições
+- Media queries.
+- Funções
+- Callbacks
+- Eventos
+- Immer para prevenção de imutabilidade
+- Date-fns para manipulação de datas
+- React Icons
+
+### Informações
+
+🕛 **Status:** Concluído✔️
+
+☑️ **Task:** Construir um site estático a partir do projeto feito no [Figma](https://www.figma.com).
+
+- [Design Figma](<https://www.figma.com/file/oa2OsSzV6tvNkWMyDBU3jT/Restaurant---Sujeito-Programador-(Community)?type=design&node-id=0-1&mode=design&t=pVukStByJiXCaC5c-0>)
+
+<p align="center">
+Developed by Jeferson 🚀
+</p>
