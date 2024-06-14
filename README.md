@@ -16,7 +16,7 @@
 ## 💻 Projeto - Cardapio com ReactJS
 
 <p>
-Baseado em no projeto dispinibilizado pelo youtuber Sujeito Programador, a primeira versão do projeto foi feita com HTML, TAILWIND e JS. Portanto, achei o projeto interessante e conforme nos meu avançoos promovi o mesmo projeto com uma nova criação utilizando SASS/SCSS , ReactJs e TypeScript.
+Baseado em no projeto dispinibilizado pelo youtuber Sujeito Programador, a primeira versão do projeto foi feita com HTML, TAILWIND e JS. Portanto, achei o projeto interessante e conforme nos meu avanços promovi o mesmo projeto com uma nova criação utilizando SASS/SCSS , ReactJs e TypeScript.
 
 ## 🧪 Tecnologias |
 
