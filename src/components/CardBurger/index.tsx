@@ -1,8 +1,7 @@
 import "./card_burguer.scss";
 import { FaCartPlus } from "react-icons/fa";
-import { useContext } from "react";
-import { BurgerContext } from "../../contextBurg";
-
+import { useCart } from "../../hook/useCart";
+import { formatPrice } from "../../utils/formartPrice";
 interface CardBurgerProps {
   idBurger: string;
   nameBurger: string;
@@ -18,7 +17,8 @@ export const CardBurger = ({
   descrBurger,
   priceBurger,
 }: CardBurgerProps) => {
-  const { addBurgerOnCart, formatPrice } = useContext(BurgerContext);
+  const { addBurgerOnCart } = useCart();
+  const formattedPrice = formatPrice(priceBurger);
 
   return (
     <div className="card-burguer">
@@ -28,7 +28,7 @@ export const CardBurger = ({
         <p>{descrBurger}</p>
 
         <div className="footer-card-menu">
-          <span>{formatPrice(priceBurger)}</span>
+          <span>{formattedPrice}</span>
           <button
             onClick={() => addBurgerOnCart(nameBurger, priceBurger, idBurger)}
           >

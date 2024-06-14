@@ -15,7 +15,7 @@ export const ModalCart = () => {
     event.preventDefault();
 
     if (inputValue.trim().length < 11) {
-      toast.warning("Informe o endereço", {
+      toast.warning("Informe o endereço completo", {
         autoClose: 1000,
       });
       return;

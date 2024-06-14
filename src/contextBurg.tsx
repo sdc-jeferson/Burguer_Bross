@@ -3,14 +3,13 @@ import { produce } from "immer";
 
 export interface BurgerContextType {
   countItemsOnCart: number;
-  addBurgerOnCart: (name: string, value: string, id: string) => void;
+  addBurgerOnCart: (name: string, value: number, id: string) => void;
   burgerCart: BurgerCartItem[];
   modalIsOpen: boolean;
   handleOpenModal: () => void;
   handleCloseModal: () => void;
   setBurgerCart: React.Dispatch<React.SetStateAction<BurgerCartItem[]>>;
   removeItemOnTheCart: (id: string) => void;
-  formatPrice: (value: number) => void;
 }
 
 export interface BurgerCartItem {
@@ -39,7 +38,7 @@ export const BurgerProvider = ({ children }: BurgerProviderProps) => {
   }
 
   // ================================================================================
-  function addBurgerOnCart(name: string, value: string, id: string) {
+  function addBurgerOnCart(name: string, value: number, id: string) {
     const existingItemIndex = burgerCart.findIndex((item) => item.id === id);
 
     const infosForAddBurgeronCart = {
@@ -81,19 +80,11 @@ export const BurgerProvider = ({ children }: BurgerProviderProps) => {
 
   //  ===================================================================================
 
-  function formatPrice(value: number) {
-    return value.toLocaleString("pt-br", {
-      style: "currency",
-      currency: "BRL",
-    });
-  }
-
   const contextValue = {
     handleOpenModal,
     handleCloseModal,
     addBurgerOnCart,
     removeItemOnTheCart,
-    formatPrice,
     countItemsOnCart,
     modalIsOpen,
     setBurgerCart,
