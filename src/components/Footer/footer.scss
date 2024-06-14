@@ -1,0 +1,25 @@
+.footer-app {
+  width: 100%;
+  background-color: var(--danger);
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > button {
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+    svg {
+      font-size: 1.25rem;
+    }
+  }
+}

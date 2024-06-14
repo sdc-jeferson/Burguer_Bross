@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray-100: #f6f7f8;
+  --black: #00000;
+  --danger: #ff3131;
+  --green-light: #54cc0a;
+
+  @media screen and (max-width: 640px) {
+    html,
+    body,
+    input,
+    textarea,
+    button,
+    select {
+      font-size: 87.5%; // 14px
+    }
+  }
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: var(--white);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}

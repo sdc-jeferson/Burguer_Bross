@@ -1,0 +1,58 @@
+.card-burguer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.875rem;
+
+  > img {
+    height: 120px;
+    border-radius: 6px;
+  }
+
+  .description-burger {
+    display: grid;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    > span {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 1, 125rem;
+    }
+  }
+}
+
+.footer-card-menu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  > span {
+    font-weight: 600;
+  }
+
+  > button {
+    border: none;
+    background-color: #000000;
+    padding: 4px 0.875rem;
+    border-radius: 6px;
+    svg {
+      color: var(--white);
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card-burguer {
+    > img {
+      width: 108px;
+      height: 108px;
+    }
+
+    .description-burger {
+      gap: 0;
+    }
+  }
+}
