@@ -15,7 +15,7 @@ export interface BurgerContextType {
 export interface BurgerCartItem {
   id: string;
   name: string;
-  value: string;
+  value: number;
   quantity: number;
 }
 
