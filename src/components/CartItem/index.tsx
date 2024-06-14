@@ -1,20 +1,11 @@
 import "./cart-item.scss";
 import emptyImg from "../../assets/clipboard.png";
-import { useContext } from "react";
-import { BurgerContext } from "../../contextBurg";
 import { BurgerCartItem } from "../../contextBurg";
+import { useCart } from "../../hook/useCart";
+import { formatPrice } from "../../utils/formartPrice";
 
 export const CartItem = () => {
-  const context = useContext(BurgerContext);
-
-  if (!context) {
-    throw new Error(
-      "useBurgerContext deve ser usado dentro de um BurgerProvider"
-    );
-  }
-
-  const { burgerCart, removeItemOnTheCart, formatPrice, handleCloseModal } =
-    context;
+  const { burgerCart, removeItemOnTheCart, handleCloseModal } = useCart();
 
   return (
     <>
