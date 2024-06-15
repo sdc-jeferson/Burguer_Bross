@@ -1,6 +1,6 @@
 <h1 text-align="center">BurguerBross</h1>
 
-🌎 Result Preview: [Veja o Projeto](https://cardapio-finalizado.vercel.app/)
+<!--🌎 Result Preview: [Veja o Projeto](https://cardapio-finalizado.vercel.app/) -->
 
 </div>
 
@@ -22,7 +22,7 @@ Baseado em no projeto dispinibilizado pelo youtuber Sujeito Programador, a prime
 
 ![HTML5](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/Sass-CC6699.svg?style=for-the-badge&logo=Sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
 
 ---
